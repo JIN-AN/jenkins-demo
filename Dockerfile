@@ -2,7 +2,7 @@ FROM java:openjdk-8-jre-alpine
 
 WORKDIR /app
 
-ADD . /app
+ADD *.jar /app
 
 # Define environment variable
 #ENV DOCKER_VAR "deneme ali veli"
