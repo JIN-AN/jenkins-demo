@@ -7,6 +7,11 @@ public class RestController {
 
     @GetMapping("/status")
     public String status(){
+        return "ok";
+    }
+
+    @GetMapping("/jenkins-test")
+    public String jenkins(){
         return "oki doki";
     }
 }
