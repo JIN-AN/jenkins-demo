@@ -12,6 +12,6 @@ public class RestController {
 
     @GetMapping("/jenkins-test")
     public String jenkins(){
-        return "oki doki";
+        return "oki doki !";
     }
 }
